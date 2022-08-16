@@ -1,32 +1,28 @@
+
 body {
-  font-family: sans-serif;
-  margin: 0 50px; 
+  font-family: 'Fjalla One';
+    margin: 0 50px;
+    background-color: aliceblue;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
 }
 
-.container {
-  display: flex;
-  gap: 50px; 
+.left {
+  text-align: center;
+  margin-top: 50px;
+  background-color: #fff;
+  width: 300px;
+  height: 290px;
+  border: 5px solid #b2a1ce;
+  border-radius: 8px;
+  padding: 15px;
 }
 
-#posts {
-  width: 400px; 
+.right {
+  text-align: center;
+  margin-top: 60px;
 }
 
-i {
-  cursor: pointer; 
-}
-
-#posts div {
-  display: flex; 
-  align-items: center; 
-  justify-content: space-between; 
-}
-
-.options {
-  display: flex; 
-  gap: 25px; 
-}
-
-#msg {
-  color: red; 
-}
