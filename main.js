@@ -16,7 +16,15 @@ let formValidation = () => {
     msg.innerHTML = "Post cannot be blank";
     console.log("failure");
   } else {
-    console.log("success");
-    msg.innerHTML = "";
+  acceptData();
   }
 }
+
+
+let data = {};
+
+let acceptData = () => {
+  data["text"] = input.value; 
+  console.log(data); 
+}
+
